@@ -1,0 +1,75 @@
+<%- include('partials/header') -%>
+        <!--  banner starts  -->
+        <section id="about-banner">
+            <div class="text-center about-overlay">
+                <h2>contact-us</h2>
+            </div>
+        </section>
+        <!-- banner ends -->
+        <section id="page-indi">
+            <div class="container">
+                <a href="/"><i class="fa fa-home"></i> home</a>
+                <i class="fa fa-angle-double-right"></i>
+                <span>contact-us</span>
+            </div>
+        </section>
+    </div>
+    <!-- content part starts -->
+    <section id="content">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-md-12 col-sm-12 col-12 pr-md-0">
+                    <div class="contact">
+                        <div class="row m-0">
+                            <div class="col-12 p-0" >
+                                <h2 class="text-center" style="border-bottom: 3px solid #c1bebe;padding-bottom: 7px !important;margin-bottom: 50px;">contact-us</h2>
+                            </div>
+
+                            <div class="col-md-5 col-12 p-0">
+                                
+                                <a href="tel:+880-1112-333-444"><i class="fa fa-phone"></i><b>phone:</b> 01868752464</a>
+                                <a href="mailto:<?= $after_assoc['email'] ?>"><i class="fa fa-envelope"></i><b>e-mail: </b>          rajiurrahmanraj2021@gmail.com</a>
+                                <a href="#"><i class="fa fa-location-arrow"></i><b>address:</b> Malibag Dhaka</a>
+                            </div>
+
+                            <div class="col-md-6 col-12 offset-md-1 p-0">
+                                <h5 style="color: #00BE89;margin-bottom: 25px;">গুগল মাপে আমাদের খুঁজে পেতে এখানে ক্লিক করুন</h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.5859909591777!2d90.40367218518492!3d24.741089860123175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f0c9cf00c11%3A0x7995782fadfc442b!2sMymensingh%20Polytechnic%20Institute!5e0!3m2!1sen!2sbd!4v1566663465400!5m2!1sen!2sbd" frameborder="0" style="border:0; width:450px; height:200px" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-12 p-0">
+                                <h2 class="h">send us a message</h2>
+                            </div>
+                            
+                            <div class="col-md-12">
+                               <form>
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">Full Name</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your full name">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">Email</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your email">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">Subject</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your subject">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">Message</label>
+                                    <textarea class="form-control" rows="5" type="text"></textarea>
+                                  </div>
+                                  
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- content part ends -->
+
+    <%- include('partials/footer') -%>
